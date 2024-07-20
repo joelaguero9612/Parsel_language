@@ -32,7 +32,7 @@ public class Traductor
         {"X", "Seeh"},
         {"Y", "Haah"},
         {"Z", "SsSeth"},
-        {" ", " "}, // Preserva el espacio en blanco
+        {" ", " "}, 
         {"á", "Ayay"},
         {"é", "Eeh"},
         {"í", "Iyay"},
@@ -55,7 +55,7 @@ public class Traductor
 
     public static void Main(string[] args)
     {
-        Console.WriteLine("Ingrese el texto que desea traducir:");
+        Console.WriteLine("Meta el texto");
         string textoOriginal = Console.ReadLine();
         string textoTraducido = Traducir(textoOriginal);
         Console.WriteLine("Texto traducido: {0}", textoTraducido);
